@@ -1,1 +1,5 @@
 # Ray-tracing-in-magnetic-lens
+
+This software is a theoretical testing tool, developed to meet the high precision requirements of electron flight tracking in electron microscopy research. At the heart of the software lies a cutting-edge technology that precisely detects axial magnetic field distributions. Leveraging the power series expansion of the Laplace equation, it successfully reconstructs the off-axis magnetic field distribution within a three-dimensional space. This reconstruction capability allows the software to accurately calculate and predict the trajectory of electrons within the magnetic field.
+
+For researchers in the field of microscopy, this tool offers unparalleled insights. Using this software, they can not only pinpoint the exact location and size of the electron focal point but also gain understanding about lens characteristics under specific magnetic field distributions, such as spherical aberration, coma, and astigmatism. Such profound analysis provides key references for optimizing image quality in microscopy and contributes significantly to the ongoing refinement of electron microscope design and application.
