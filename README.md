@@ -30,7 +30,7 @@ This equation is the fundamental equation for calculating the axially symmetric 
 
 The figure shows the spherical aberration for different radial magnetic field distributions
 
-# 3D ray-tracing in magnetic lens
+**3D ray-tracing in magnetic lens **
 
 When an electron beam passes through a magnetic lens in an electron microscope, the beam can experience distortions, and one of the primary distortions is spherical aberration. Spherical aberration occurs when electrons that pass through different radial distances from the lens axis are focused to different points along the axis. Ideally, all these electrons should converge to a single point, but due to the imperfections in the lens and its magnetic field distribution, this doesn't happen.
 
