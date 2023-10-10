@@ -42,7 +42,7 @@ $$
 \end{aligned}
 $$
 
-Using the differential equations, we can employ numerical calculation methods based on finite differences method, thereby obtaining the flight trajectory of particles in space.
+For such complex systems of differential equations, computer-based numerical methods are typically required. Using the forward Euler finite difference numerical method, we can solve the system of differential equations and obtain the flight trajectory of particles in space
 
 ![CleanShot 2023-10-10 at 17 44 16@2x](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/4459aeb8-b7bf-4cdb-9dbc-c145ee6e687d)
 
