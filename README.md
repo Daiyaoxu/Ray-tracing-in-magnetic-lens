@@ -4,13 +4,13 @@ This software is a theoretical testing tool, developed to meet the high precisio
 
 For researchers in the field of microscopy, this tool offers unparalleled insights. Using this software, they can not only pinpoint the exact location and size of the electron focal point but also gain understanding about lens characteristics under specific magnetic field distributions, such as spherical aberration, coma, and astigmatism. Such profound analysis provides key references for optimizing image quality in microscopy and contributes significantly to the ongoing refinement of electron microscope design and application.
 
-对于磁透镜，为了关注它的成像性质，我们首先需要需要计算它的磁场分布以及电子轨迹方程。通过轨迹方程我们可以计算它的焦平面，以及焦平面上聚焦的性质。如球差，慧差。对于旋转对称的磁场我们可以通过比奥定律
+For magnetic lenses, to focus on their imaging properties, we first need to calculate their magnetic field distribution and electron trajectory equations. Through these trajectory equations, we can determine their focal plane and the focusing properties on that plane, such as spherical aberration and astigmatism. For rotationally symmetric magnetic fields, we can use Biot-Savart's law.
 
 $$
-\boldsymbol{B}=\frac{\mu_0}{4 \pi} \int \frac{I \boldsymbol{d} \boldsymbol{s} \times \boldsymbol{r}_{t t}}{\left|\boldsymbol{r}_{t t}\right|^3}
+B=\frac{\mu_0}{4 \pi} \int \frac{I \boldsymbol{d} \boldsymbol{s} \times r_{t t}}{\left|\boldsymbol{r}_{t t}\right|^3}
 $$
 
-通过柱坐标系下拉普拉斯方程可以得到磁场分布的微分方程
+Through the Laplace equation in cylindrical coordinates, we can obtain the differential equation for the magnetic field distribution.
 
 $$
 \frac{\partial^2 A}{\partial r^2}+\frac{1}{r} \frac{\partial A}{\partial r^2}+\frac{\partial^2 A}{\partial z^2}-\frac{A}{r^2}=0
