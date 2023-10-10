@@ -16,13 +16,15 @@ $$
 \frac{\partial^2 A}{\partial r^2}+\frac{1}{r} \frac{\partial A}{\partial r^2}+\frac{\partial^2 A}{\partial z^2}-\frac{A}{r^2}=0
 $$
 
+Expanding A in terms of r as a power series, due to rotational symmetry, we can obtain:
+
 $$
 \begin{aligned}
-B_r(r, z)= & -\frac{1}{2} B^{\prime}(z) r+\frac{1}{16} B^{\prime \prime \prime}(z) r^2-\cdots & +\frac{(-1)^{k+1}}{k !(k+1) !} B^{(2 k+1)}(z)\left(\frac{r}{2}\right)^{2 k+1}+\cdots(2-47)
+B_r(r, z)= & -\frac{1}{2} B^{\prime}(z) r+\frac{1}{16} B^{\prime \prime \prime}(z) r^2-\cdots  +\frac{(-1)^{k+1}}{k !(k+1) !} B^{(2 k+1)}(z)\left(\frac{r}{2}\right)^{2 k+1}+\cdots(2-47)
 \end{aligned}
 $$
 
-该方程是利用磁矢位计算轴对称磁场的基本方程。把A按r展成幂级数, 由于旋转对称性我们可以获得：
+This equation is the fundamental equation for calculating the axially symmetric magnetic field using the magnetic vector potential.
 
 ![球差](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/d6e84577-d9c0-498f-b644-d898a0751366)
 
