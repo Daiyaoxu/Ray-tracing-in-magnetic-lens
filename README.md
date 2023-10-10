@@ -1,4 +1,4 @@
-# Ray-tracing-in-magnetic-lens
+## Ray-tracing-in-magnetic-lens
 
 This software is a theoretical testing tool, developed to meet the high precision requirements of electron flight tracking in electron microscopy research. This software detects axial magnetic field distributions by axis magnetic distribution. The mathmatic principle of this software is based on leveraging the power series expansion of the Laplace equation. It successfully reconstructs the off-axis magnetic field distribution within a three-dimensional space. This reconstruction capability allows the software to accurately calculate and predict the trajectory of electrons within the magnetic field.
 
@@ -29,6 +29,8 @@ This equation is the fundamental equation for calculating the axially symmetric 
 ![球差](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/d6e84577-d9c0-498f-b644-d898a0751366)
 
 The figure shows the spherical aberration for different radial magnetic field distributions
+
+# 3D ray-tracing in magnetic lens
 
 When an electron beam passes through a magnetic lens in an electron microscope, the beam can experience distortions, and one of the primary distortions is spherical aberration. Spherical aberration occurs when electrons that pass through different radial distances from the lens axis are focused to different points along the axis. Ideally, all these electrons should converge to a single point, but due to the imperfections in the lens and its magnetic field distribution, this doesn't happen.
 
