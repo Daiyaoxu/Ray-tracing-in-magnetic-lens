@@ -9,9 +9,8 @@ The figure shows the spherical aberration for different radial magnetic field di
 
 When an electron beam passes through a magnetic lens in an electron microscope, the beam can experience distortions, and one of the primary distortions is spherical aberration. Spherical aberration occurs when electrons that pass through different radial distances from the lens axis are focused to different points along the axis. Ideally, all these electrons should converge to a single point, but due to the imperfections in the lens and its magnetic field distribution, this doesn't happen.
 
+![CleanShot 2023-10-10 at 17 44 16@2x](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/4459aeb8-b7bf-4cdb-9dbc-c145ee6e687d)
 
-![慧差3d1](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/e6d7f2ca-9539-49f4-bf97-ea8f071202d9)
-![慧差3D](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/adbb9f12-57ec-414c-acb0-4973aac8b9a8)
 
 The computational results of the three-dimensional hysteresis calculations presented in Fig. Coma aberration arises due to imperfections in the lens or misalignments in the system. The deviation from a perfect magnetic field, combined with the lens geometry and other system factors, can introduce coma.
 
