@@ -32,7 +32,7 @@ The figure shows the spherical aberration for different radial magnetic field di
 
 ### 3D ray-tracing in magnetic lens 
 
-当我们需要观察透镜的慧差、象散等，非对称的额成像误差时，我们需要涉及跟高维度的粒子追踪。需要微分方程组对电子在不同维度的轨迹进行描述
+When we need to observe lens astigmatism, coma distortion, and other asymmetric imaging errors, higher-dimensional particle tracking is required. A system of differential equations is needed to describe the trajectories of electrons in different dimensions.
 
 $$
 \begin{aligned}
@@ -42,6 +42,7 @@ $$
 \end{aligned}
 $$
 
+Using the differential equations, we can employ numerical calculation methods based on finite differences method, thereby obtaining the flight trajectory of particles in space.
 
 ![CleanShot 2023-10-10 at 17 44 16@2x](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/4459aeb8-b7bf-4cdb-9dbc-c145ee6e687d)
 
