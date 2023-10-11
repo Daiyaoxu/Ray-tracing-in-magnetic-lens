@@ -16,7 +16,7 @@ $$
 \frac{\partial^2 A}{\partial r^2}+\frac{1}{r} \frac{\partial A}{\partial r^2}+\frac{\partial^2 A}{\partial z^2}-\frac{A}{r^2}=0
 $$
 
-Expanding A in terms of r as a power series, due to rotational symmetry, we can obtain:
+This equation is the fundamental equation for calculating the axially symmetric magnetic field using the magnetic vector potential. Where A represents the magnetic vector potential, r represents the radial direction, and z represents the axial direction. Expanding A in terms of r as a power series, due to rotational symmetry, we can obtain:
 
 $$
 \begin{aligned}
@@ -24,11 +24,16 @@ B_r(r, z)= & -\frac{1}{2} B^{\prime}(z) r+\frac{1}{16} B^{\prime \prime \prime}(
 \end{aligned}
 $$
 
-This equation is the fundamental equation for calculating the axially symmetric magnetic field using the magnetic vector potential.
+By obtaining the first three terms of the expansion, we can determine the magnitude of the off-axis magnetic field. Combined with the kinematic equations, we can calculate the trajectory equation for off-axis particles. The calculation results can also be referred to as third-order geometric aberrations. If higher computational accuracy is required, higher-order expansion forms can be used. Below are the kinematic equations for the particle's motion in a two-dimensional symmetric cylindrical coordinate system.
 
-![球差](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/d6e84577-d9c0-498f-b644-d898a0751366)
+$$
+r^{\prime \prime}+\left(\frac{e}{8 m c^2 V_r} R^2\right)\left[{B(\bar{z})} \right]^2 r=0
+$$
 
 The figure shows the spherical aberration for different radial magnetic field distributions
+![球差](https://github.com/Daiyaoxu/Ray-tracing-in-magnetic-lens/assets/130887176/d6e84577-d9c0-498f-b644-d898a0751366)
+
+
 
 ### 3D ray-tracing in magnetic lens 
 
